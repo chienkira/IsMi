@@ -2,55 +2,30 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-  <key>items</key>
-  <array>
-   <dict>
-
-     <key>assets</key>
-     <array>
-       <dict>  
-          <key>kind</key>
-          <string>software-package</string>
-          <key>url</key>
-          <string>https://dl.dropboxusercontent.com/content_link/Zixub19KxoLI8KcgLdrpYJ2I7yw6PnpR0OGyJeNL3HKGdIW6UltUxiZ8DkUgufJL/file?dl=1</string>          
-        </dict>
-
-        <!-- display-image: the icon to display during download.-->
+    <key>items</key>
+    <array>
         <dict>
-         <key>kind</key>
-         <string>display-image</string>
-         <key>url</key>
-         <string>https://static.wixstatic.com/media/e105da_fe3fed91862f4a8f98539486b6457e45~mv2.png/v1/crop/x_8,y_0,w_234,h_90/fill/w_130,h_50,al_c,usm_0.66_1.00_0.01/e105da_fe3fed91862f4a8f98539486b6457e45~mv2.png</string>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <key>url</key>
+                    <string>https://kiradev.me/IsMi/app.ipa</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <key>bundle-identifier</key>
+                <string>com.example.helloworld</string>
+                <key>bundle-version</key>
+                <string>1.0.0</string>
+                <key>kind</key>
+                <string>software</string>
+                <key>title</key>
+                <string>イセタン ミラー</string>
+            </dict>
         </dict>
-
-        <!-- full-size-image: the large 512x512 icon used by iTunes. -->
-        <dict>
-         <key>kind</key>
-         <string>full-size-image</string>
-         <key>needs-shine</key><true/>
-         <key>url</key>
-         <string>https://static.wixstatic.com/media/e105da_fe3fed91862f4a8f98539486b6457e45~mv2.png/v1/crop/x_8,y_0,w_234,h_90/fill/w_130,h_50,al_c,usm_0.66_1.00_0.01/e105da_fe3fed91862f4a8f98539486b6457e45~mv2.png</string>
-        </dict>
-     </array>
-
-     <key>metadata</key>
-     <dict>
-       <key>bundle-identifier</key>
-       <string>com.isetan.mirror.app</string>
-       
-       <key>bundle-version</key>
-       <string>1.0</string>
-       
-       <key>kind</key>
-       <string>software</string>
-       
-       <key>subtitle</key>
-       <string>イセタン ミラー</string>
-       <key>title</key>
-       <string>イセタン ミラー</string>
-     </dict>
-
-   </dict>
-  </array>
+    </array>
 </dict>
 </plist>
